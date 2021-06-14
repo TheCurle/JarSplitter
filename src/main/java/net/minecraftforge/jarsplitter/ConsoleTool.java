@@ -71,7 +71,6 @@ public class ConsoleTool {
 
             log("Splitter: ");
             log("  Input:    " + input);
-            log("  Input:    " + input);
             log("  Slim:     " + slim);
             log("  Data:     " + data);
             log("  Extra:    " + extra);
@@ -79,6 +78,7 @@ public class ConsoleTool {
                 log("  Including data in extra");
 
             Set<String> whitelist = new HashSet<>();
+
 
             if (options.has(srgO)) {
                 for(File dir : options.valuesOf(srgO)) {
